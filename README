@@ -1,0 +1,19 @@
+Hi Jamey,
+
+this may be a strange way to reach you, but I don't see any other way right now. I
+have watched your 2015-xdc-genode speech and got the impression that you know
+what you are talking about. I also have tried to contact you on Twitter, but 144
+letters are just not enough. So here is my actual concern: We have just enabled
+the Broadwell architecture to support Mesa (OpenGL) and the i915 part of the
+Linux kernel to work on Genode. It is done in the same fashion as the 2010
+version by now. The next step would be to separate the driver from the clients,
+since page-table handling and hardware contexts are all in place, this should be
+possible. My goal is to not map the Linux DRM interface directly to a Genode
+Session. Do you have any thoughts on how to achieve this.
+
+Thank you and don't pull.
+
+Sebastian Sumpf
+
+sebastian.sumpf@genode-labs.com
+
